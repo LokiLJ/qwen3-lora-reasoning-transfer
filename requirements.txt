@@ -1,0 +1,20 @@
+# Dependency inventory, NOT an exact historical environment or tested lockfile.
+# The original notebook used unpinned installs and did not record a full freeze.
+# Use Linux/CUDA for the QLoRA + Liger training workflow.
+# Install a CUDA-compatible PyTorch build for your runtime first.
+torch
+transformers
+datasets
+accelerate
+peft
+trl
+bitsandbytes
+liger-kernel
+
+# Classical baseline (can be run independently of GPU training)
+scikit-learn
+matplotlib
+
+# Notebook interface
+jupyterlab
+ipywidgets
