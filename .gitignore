@@ -1,0 +1,53 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.secrets/
+secrets/
+secrets.*
+credentials*
+token
+token.*
+*.pem
+*.key
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Downloaded data, model weights, adapters, and local experiment output
+.cache/
+.huggingface/
+data/
+checkpoints/
+checkpoint-*/
+outputs/
+runs/
+logs/
+wandb/
+trackio/
+qwen3-14b-unsloth-bnb-4bit-SFT*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.arrow
+*.parquet
+*.log
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
